@@ -1,0 +1,39 @@
+body{background: black;}
+
+#tela{
+	background: #4DE100;
+	text-align: center;
+	margin: auto;
+	width: 15em;
+	height: 20em;
+	border: 1px solid green;
+	box-shadow: inset -2px 2px 20px 18px green;
+
+}
+
+input{
+	border: none;
+
+}
+
+input:focus{
+	outline: none;
+}
+
+#nome, #altura, #peso{
+	background: transparent;
+	border-bottom: 2px solid black;
+}
+
+::placeholder{
+	color: black;
+	font-size: 100%;
+}
+
+#btn{
+	background: black;
+	color: white;
+	width: 50%;
+	height: 35px;
+	border-radius: 12px;
+}
